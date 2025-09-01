@@ -1,87 +1,81 @@
-# 🥗 FoodLoop – Closing the Loop on Food Waste
+# 🥗 MealBridge – Connecting Surplus Food with Communities
 
-**FoodLoop** is a lightweight web platform that connects food donors (like restaurants, events, or individuals) with nearby volunteers who can redistribute excess food to those in need. Built with React, Vite, and Tailwind CSS, it aims to minimize food waste and support communities through quick and simple coordination.
+**MealBridge** is a lightweight, community-driven web platform that connects food donors (restaurants, events, or individuals) with nearby volunteers who redistribute surplus meals to those in need. Built with **React, Vite, and Tailwind CSS**, it reduces food waste and supports vulnerable communities through fast and simple coordination.
 
 ---
 
 ## 🚀 Elevator Pitch
-A real-time food-sharing platform that enables anyone to donate surplus food and volunteers to claim and deliver it, helping reduce waste efficiently.
+**MealBridge** transforms surplus meals into social good by enabling donors to post food instantly and volunteers to claim and deliver it — reducing waste, fighting hunger, and empowering communities.
 
 ---
 
-## 💡 Inspiration
-
-In a world where millions go hungry and tons of food go to waste daily, we wanted to build a simple, decentralized system that empowers people to make a difference — without needing a large backend or complex logistics.
-
----
-
-## 🛠️ What It Does
-
-- Allows users to post excess food listings with location and expiration time
-- Volunteers can discover nearby food posts via an interactive map
-- Enables claiming and confirming food pickups
-- Supports a multi-role experience: donor and volunteer
-- No backend required — leverages browser localStorage for state
+## 💡 Problem Statement
+Every day, millions of people go hungry while tons of edible food are discarded. Complex logistics and lack of coordination prevent excess meals from reaching those who need them. **MealBridge** bridges this gap with a **lightweight, decentralized platform** where anyone can donate, claim, and redistribute food in real time — without needing costly infrastructure.
 
 ---
 
-## 🔨 How We Built It
-
-- **Frontend**: React (with TypeScript) + Vite
-- **UI**: Tailwind CSS and Lucide Icons
-- **State Management**: React Context API
-- **Routing**: React Router
-- **Other Tools**: React Dropzone, React Toast, localStorage
-- **No backend**, fully client-side hosted
-
----
-
-## 🚧 Challenges We Ran Into
-
-- **State Synchronization**: Creating real-time updates across different user roles using only localStorage and React state.
-- **Complex User Flows**: Designing a smooth flow from posting → claiming → confirming food while preserving data integrity.
-- **Responsive Design**: Making the map interface mobile-friendly without losing functionality.
-- **Performance Optimization**: Managing large food post lists with fast filtering and rendering.
-- **User Experience**: Balancing simplicity with essential features for volunteers and donors.
-- **Error Handling**: Robust checks for edge cases in the food claiming and timing process.
+## 🛠️ Our Solution
+MealBridge provides a **fast, community-driven system** with:  
+- 📍 **Location-based food listings** – Donors can post surplus meals with expiry times  
+- 🤝 **Volunteer coordination** – Volunteers discover and claim nearby donations  
+- ✅ **Pickup confirmation flow** – Smooth process from posting → claiming → delivering  
+- 📱 **Mobile-friendly design** – Optimized for both desktop and mobile  
+- 💾 **Client-side only MVP** – No backend required, using `localStorage` for persistence  
 
 ---
 
-## 🏆 Accomplishments We're Proud Of
-
-- Built a full-fledged, interactive app without a backend
-- Seamless user experience for multiple roles
-- Polished mobile-friendly UI
-- Encouraged social impact through tech
-
----
-
-## 📚 What We Learned
-
-- Advanced React state management without external libraries
-- How to structure scalable multi-role flows in frontend-only apps
-- Handling complex logic in purely client-side environments
-- UX decisions for social good platforms
+## ⚙️ Tech Stack
+- **Frontend:** React (with TypeScript) + Vite  
+- **UI:** Tailwind CSS, Lucide Icons  
+- **Routing:** React Router  
+- **State Management:** React Context API  
+- **Utilities:** React Dropzone, React Toast, LocalStorage  
+- **Deployment:** Netlify  
 
 ---
 
-## 🔮 What's Next for FoodLoop
+## 🚧 Challenges
+- Designing **real-time-like state synchronization** with only localStorage  
+- Handling **multi-role user flows** (donor/volunteer) smoothly  
+- Achieving **responsive, map-based UI** for mobile users  
+- Ensuring **performance** when handling multiple food listings  
+- Balancing **simplicity and essential features** for impact  
 
-- Backend integration with Firebase or Supabase for persistence
-- Authentication and user profiles
-- Push notifications for claimed/expired posts
-- NGO integration and real-time dashboards
-- Mobile app version using React Native or Expo
+---
+
+## 🏆 Achievements
+- Built a **full-stack experience without a backend**  
+- Developed a **clean and intuitive UX** for multiple roles  
+- Achieved **fully responsive mobile-first UI**  
+- Created a **social impact MVP** that’s free and community-driven  
+
+---
+
+## 📚 Key Learnings
+- Advanced React state management without third-party libs  
+- Designing scalable **multi-role workflows** in frontend-only apps  
+- Importance of **UX for social impact apps**  
+- Trade-offs between simplicity and persistence  
+
+---
+
+## 🔮 What’s Next
+- 🌐 Backend integration (Firebase / Supabase) for persistence  
+- 🔐 Authentication and user profiles  
+- 🔔 Push notifications for claims/expiry alerts  
+- 📊 NGO dashboards and analytics  
+- 📱 Mobile app version with React Native  
 
 ---
 
 ## 📦 Setup Instructions
-### 🔁 Clone the Repository
-
+### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/foodloop.git
-cd foodloop/project 
-```
+git clone https://github.com/ShivA-800/FoodLoop.git
+cd foodloop/project
+npm install
+npm run dev
+
 
 ---
 ### Developed By
